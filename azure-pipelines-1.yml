@@ -26,6 +26,6 @@ steps:
     TomcatUrl: 'https://0315-2600-8804-584-bf00-ec63-cb7d-4ccb-8075.ngrok-free.app'
     Username: 'tomcat'
     Password: 'tomcat'
-    Warfile: 'target/'
+    Warfile: '/home/vsts/work/1/s/target/test-rest-app-0.0.1-SNAPSHOT.jar'
     Context: '/test-rest-app'
     ServerVersion: '7OrAbove'
