@@ -18,6 +18,11 @@ public class EmployeeDetailsController {
 	public List<Employee> getEmployees() {
 		return Arrays.asList(new Employee[] {new Employee(100,"Hemanth"), new Employee(200, "Srinivas")});
 	}
+
+	@GetMapping(path="/getemployee/{id}") 
+	public Employee getEmployees() {
+		return new Employee(100,"Hemanth"), new Employee(200, "Srinivas")};
+	}
 }
 
 class Employee {
