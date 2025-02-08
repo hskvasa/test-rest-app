@@ -13,6 +13,11 @@ public class EmployeeDetailsController {
 	public List<Employee> getEmployees() {
 		return Arrays.asList(new Employee[] {new Employee(100,"Hemanth"), new Employee(200, "Srinivas")});
 	}
+
+	@GetMapping(path="/get") 
+	public List<Employee> getEmployees() {
+		return Arrays.asList(new Employee[] {new Employee(100,"Hemanth"), new Employee(200, "Srinivas")});
+	}
 }
 
 class Employee {
