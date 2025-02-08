@@ -46,6 +46,13 @@ class Employee {
 	public void setEmpName(String empName) {
 		this.empName = empName;
 	}
-	
-	
+
+}
+
+class Address {
+	private String street;
+	private String city;
+	private String state;
+	private String country;
+	private String zip;
 }
