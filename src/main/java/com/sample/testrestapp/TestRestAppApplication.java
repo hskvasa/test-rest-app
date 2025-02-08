@@ -8,6 +8,7 @@ public class TestRestAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TestRestAppApplication.class, args);
+		System.out.println("Test commit");
 	}
 
 }
